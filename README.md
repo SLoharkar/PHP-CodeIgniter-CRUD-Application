@@ -77,3 +77,7 @@ This repository contains a comprehensive CRUD (Create, Read, Update, Delete) app
 ## Video Trailer
 
 For a quick overview of the application, watch the video trailer below:
+
+https://github.com/SLoharkar/PHP-CodeIgniter-CRUD-Application/assets/68845746/f20945c3-1262-4b18-a0b9-2c1d8703402e
+
+
