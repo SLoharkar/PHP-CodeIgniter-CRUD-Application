@@ -15,6 +15,34 @@ This repository contains a comprehensive CRUD (Create, Read, Update, Delete) app
 - **Code Commenting**: Well-commented code for better understanding and maintainability.
 - **Professional Project Structure**: Adheres to professional standards for project creation and management.
 
+## Usage
+
+### Register and Update Form
+
+- **Register**: Access the registration form to create a new user. Passwords are securely hashed using `password_hash`.
+- **Update**: Use the same form to update user information.
+
+### CRUD Operations
+
+- **Create**: Add new records to the database.
+- **Read**: Retrieve and display records from the database.
+- **Update**: Modify existing records in the database.
+- **Delete**: Remove records from the database.
+
+## Code Structure
+
+- **Controllers**: Handle incoming requests and interact with services.
+  - `HomeController`: Manages the Login, Register, and Logout operations.
+  - `CrudController`: Manages CRUD operations and interactions with services.
+- **Libraries**: Contain business logic and act as intermediaries between controllers and repositories.
+  - `CrudService`: Handles the business logic for CRUD operations.
+- **Models**: Represent database entities and handle data operations.
+  - `CrudRepository`: Mediator of `CrudService` and `DatabaseModel`, managing data persistence and retrieval.
+  - `DatabaseModel`: Contains all database-related operations.
+  - **View Handler**: Manages the presentation layer of the application.
+- **Helpers**: Provide utility functions for validation and other common tasks.
+  - `Validation Helper`: Manages form validation related functions.
+
 ## Installation and Setup
 
 ### Prerequisites
@@ -45,3 +73,7 @@ This repository contains a comprehensive CRUD (Create, Read, Update, Delete) app
    - Place the project in the web root directory of your server (e.g., `htdocs` for XAMPP).
    - Start the Apache server.
    - Access the application via your browser at `http://localhost/PHP-CodeIgniter-CRUD-Application`.
+
+## Video Trailer
+
+For a quick overview of the application, watch the video trailer below:
